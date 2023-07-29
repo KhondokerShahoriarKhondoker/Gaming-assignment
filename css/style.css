@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Work+Sans:wght@700&display=swap');
+body{
+    margin: 0 auto;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Work Sans', sans-serif;
+
+ 
+}
+li{
+    padding: 0 10px;
+    list-style: none;
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-top-section {
+	padding-top: 15px;
+}
+.header {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: #eeeeee0d;
+}
+.headerarea {
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+	padding-bottom: 24px;
+}
+.header-left{
+    display: flex;
+}
+.header-right {
+	display: flex;
+	margin-top: 18px;
+}
+.logo {
+	width: 35%;
+	height: 35px;
+	margin-top: 11px;
+	margin-left: 10px;
+}
+.title-color-logo{
+    color: #FF42A5;
+    
+}
+.logotitle {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 45px;
+	margin-left: 10px;
+}
+.fa-brands.fa-youtube {
+	padding: 0px 14px;
+	color: red;
+}
+.fa-brands.fa-tiktok {
+	
+	color: rgb(0, 0, 0);
+}
+.header-style-area {
+	padding: 10px 15px;
+	background: #E7E6E9;
+    border-radius: 5px;
+}
+.header-main {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 39px;
+}
+.goat-style {
+	background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 95px;
+	margin: 5px 0;
+}
+.joat-style{
+	background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 45px;
+	margin: 5px 0;
+}
+.Funnycontenth1{
+	font-size: 45px;
+
+}
+h2{
+color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.header-background-image {
+	background-image: url("/images/Vector\ 2.png");
+	background-size: 50%;
+	background-position: left;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position-y: 11px;
+	padding: 10px 10px;
+}
+.header-content-image {
+	width: 550px;
+}
+.fa-regular.fa-circle-play.heroicon{
+    padding-right: 20px;
+    color: #000;
+}
+ .fa-solid.fa-download.heroicon{
+    padding-right: 20px;
+    color: #FF4CC9;
+ }
+ 
+ .fa-solid.fa-user-group.heroicon  {
+	padding-right: 20px;
+    color: #000;
+}
+.iconlist li {
+
+	padding-top: 10px;
+}
+.playtext {
+	padding-top: 102px;
+	font-size: 49px;
+	padding-bottom: 0px;
+	height: 20px;
+}
+.btn-primary {
+	padding: 13px 43px;
+	border-radius: 10px;
+	background: #FF42A4;
+	color: #fff;
+	font-size: 17px;
+	margin-top: 35px;
+	text-transform: uppercase;
+}
+.btn-secondary {
+	padding: 13px 43px;
+	border-radius: 10px;
+	background: #4EC5F7;
+	color: #fff;
+	font-size: 17px;
+	margin-top: 35px;
+	text-transform: uppercase;
+
+}
+.Wearegamer{
+	
+	display: flex;
+
+}
+.wearegamerleft{
+
+	width: 65%;
+
+}
+.wearegamerright{
+	width: 35%;
+    text-align: end;
+}
+
+.wearegamerright p {
+	font-weight: 300;
+}
+.Wearegamerparent {
+	background: #FFF9FC;
+	padding: 50px 0;
+}
+.Funnycontent{
+	text-align: center;
+}
+.Funnyimage{
+	display: flex;
+}
+.Funnyimage img {
+	width: 277px;
+	padding: 0px 12px;
+	margin-top: 10px;
+	height: 300px;
+}
+.Funnyimage p {
+	padding: 0px 12px;
+	font-weight: 300;
+}
+.PlayInstantly {
+	display: flex;
+	position: relative;
+	padding-top: 141px;
+}
+
+
+.PlayInstantlyright{
+	width: 40%;
+}
+
+.PlayInstantlyrightimg2nd {
+	position: absolute;
+	bottom: -20%;
+	left: -23%;
+	width: 43%;
+}
+.PlayInstantly2nd {
+	display: flex;
+	padding-top: 173px;
+}
+.PlayInstantlyleft {
+	width: 60%;
+	text-align: center;
+	padding-top: 180px;
+}
+.fornewtext{
+  color: #E74BBC;   
+}
+.PlayGames2nd {
+	position: absolute;
+	bottom: -20%;
+	right: -10%;
+	width: 40%;
+}
+.PlayGamesleft {
+	width: 60%;
+	text-align: center;
+	padding-top: 180px;
+}
+.PlayGamesright{
+	width: 40%;
+	
+}
+.ptext{
+	font-weight: 300;
+}
+.games-style{
+	
+		background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	
+}
+.Careersparent{
+	background-color: #FF42A5;
+	margin-top: 200px;
+
+}
+
+
+/* .Careers {
+	background: url("/images/Group%2065.png");
+	background-repeat: no-repeat;
+	background-position-x: 850px;
+	background-size: 57%;
+	height: 600px;
+} */
+.Careerssectioninfo{
+	display: flex;
+}
+.forlist {
+	display: flex;
+	margin-left: -8px;
+}
+.forlist li a {
+	
+	color: #fff;
+	line-height: 1.8;
+}
+/* .Careers-left h1, p {
+	color: #fff;
+} */
+.btn-light {
+	padding: 13px 43px;
+	border-radius: 10px;
+	background: #fff;
+	color: #FF42A5;
+	font-size: 17px;
+	margin-top: 35px;
+	text-transform: uppercase;
+
+}
+.Careers-right img {
+	width: 155%;
+	height: 634px;
+}
+.Careers-left {
+	width: 50%;
+	padding: 100px 0;
+}
+.Careers-right {
+	width: 56%;
+}
+.partnersection {
+	background-color: #FFF9FC;
+	padding: 75px 0;
+}
+.imagespartner img {
+	width: 15%;
+	height: 43px;
+	margin-right: 10px;
+}
+.partnersectionimagesall {
+	display: flex;
+}
+.imagespartner {
+	background: #fff;
+	border-radius: 50%;
+	display: flex;
+	padding-left: 34px;
+}
+.imagespartner p {
+	color: #000;
+	font-size: 20px;
+
+}
+.partnersectionimages {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.footer{
+	background-color: #0B0223;
+	padding: 100px 0;
+}
+.footer-content{
+	text-align: center;
+}
+.footermenu {
+	display: flex;
+	color: #fff;
+	justify-content: center;
+	padding: 31px 0;
+	font-size: 18px;
+	font-weight: 300;
+}
+.iconlist {
+	padding: 20px 0;
+	color: #fff;
+}
+.footerlogo {
+	width: 20%;
+}
+
+.footertext {
+	color: #fff;
+	font-size: 16px;
+	margin-top: -10px;
+	font-weight: 300;
+}
+.footeri.fa-brands.fa-youtube {
+	color: #fff;
+}
+.Instantly-for-position {
+	position: relative;
+}
+
+/* responsive mode start */
+
+@media only screen and (min-width: 320px) and (max-width:992px) {
+
+	.headerarea {
+		display: grid;
+		justify-content: space-between;
+		background: #fff;
+		padding-bottom: 24px;
+		gap: 10px;
+	}
+	.header-left {
+		display: flex;
+		justify-content: center;
+	}
+	.header-main {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 39px;
+		flex-direction: column-reverse;
+	}
+	.header-content-image {
+		width: 30%;
+	}
+	.Wearegamerimage {
+		width: 50%;
+	}
+	.Funnyimage {
+		display: flex;
+		flex-direction: column;
+	}
+	.Wearegamer {
+		display: flex;
+		flex-direction: column;
+	}
+	.wearegamerright {
+		width: 35%;
+		text-align: center;
+	}
+	.PlayInstantlyleft {
+		/* width: 60%; */
+		text-align: center;
+		padding-top: 180px;
+	}
+	.Funnyimage img {
+		width: 32%;
+		padding: 0px 12px;
+		margin-top: 10px;
+		height: 300px;
+	}
+	.PlayInstantly {
+		display: flex;
+		position: relative;
+		flex-direction: column;
+	}
+	.PlayInstantlyrightimg2nd {
+		position: absolute;
+		bottom: 0%;
+		left: 8%;
+		width: 18%;
+	}
+	.PlayInstantlyrightimg {
+		width: 100%;
+	}
+	.Funnyimage p {
+		padding: 0px 12px;
+		font-weight: 300;
+		font-size: 15px;
+	}
+	.Careerssectioninfo {
+		display: flex;
+		padding: 20px;
+		flex-direction: column;
+	}
+	.forlist {
+		display: flex;
+		margin-left: -8px;
+		flex-direction: column;
+	}
+	.Careers-right img {
+		width: 70%;
+		height: 545px;
+	}
+	.partnersectionimages {
+		display: flex;
+		justify-content: center;
+		padding-top: 20px;
+		flex-direction: column;
+	}
+	.PlayInstantlyleft {
+		text-align: left;
+		padding: 49px;
+	}
+	.PlayInstantlyright {
+		width: 26%;
+	}
+	.PlayInstantlyrightimg2nd {
+		position: absolute;
+		bottom: 0%;
+		left: 1%;
+		width: 15%;
+	}
+	.partnersectionimagesall {
+		display: flex;
+		flex-direction: column;
+	}
+	.imagespartner img {
+		width: 3%;
+		height: 43px;
+		margin-right: 10px;
+	}
+	.footer-content {
+		text-align: left;
+		padding: 30px;
+	}
+	.PlayGamesleft {
+		width: 60%;
+		text-align: left;
+		padding-top: 180px;
+	}
+	.PlayGames2nd {
+		position: absolute;
+		right: 50%;
+		width: 20%;
+	}
+	.PlayInstantlyrightimg3nd {
+		width: 86%;
+	}
+	.PlayInstantlyrightimg2nd {
+		position: absolute;
+		bottom: -9%;
+		left: 4%;
+		width: 41%;
+	}
+	.PlayInstantlyrightimg {
+		width: 100%;
+		padding-left: 46px;
+	}
+	.PlayInstantlyrightimg3nd {
+		width: 69%;
+		padding-left: 36px;
+	}
+	.PlayGames2nd {
+		position: absolute;
+		right: 21%;
+		width: 28%;
+	}
+	.PlayInstantly2nd {
+		padding-top: 87px;
+	}
+	.ptext {
+		font-weight: 300;
+		font-size: 14px;
+	}
+	.PlayGamesleft {
+		width: 60%;
+		text-align: left;
+		padding-top: 180px;
+		padding-left: 41px;
+	}
+	.PlayInstantly2nd {
+		padding-bottom: 87px;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.footermenu {
+		color: #fff;
+		justify-content: left;
+		padding: 31px 0;
+		font-size: 13px;
+		font-weight: 300;
+		display: flex;
+		grid-template-columns: repeat(2,1fr);
+		gap: 0px;
+	}
+	.logo {
+		width: 23%;
+		height: 35px;
+		margin-top: 11px;
+		margin-left: 10px;
+	}
+	.Funnycontenth1 {
+		font-size: 22px;
+		text-align: left;
+		padding: 20px;
+	}
+	.joat-style {
+		background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-size: 22px;
+		margin: 5px 0;
+	}
+	.Funnycontent {
+		text-align: left;
+		padding-left: 10px;
+	}
+	.Funnycontenth1 {
+		font-size: 21px;
+		text-align: left;
+	}
+	.Funnycontent {
+		text-align: left;
+		font-size: 15px;
+	}
+	.Funnyimage p {
+		padding: 0px 12px;
+		font-weight: 300;
+		font-size: 14px;
+	}
+	.Careers-left {
+		width: 32%;
+		/* padding: 100px 0; */
+	}
+	.footermenu {
+		color: #fff;
+		justify-content: left;
+		padding: 31px 0;
+		font-size: 13px;
+		font-weight: 300;
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		gap: 0px;
+	}
+	.footertext {
+		color: #fff;
+		font-size: 11px;
+		margin-top: -10px;
+		font-weight: 300;
+	}
+	.fa-brands.fa-youtube {
+		 padding: 0px 0px; 
+		color: red;
+	}
+
+}
